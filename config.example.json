@@ -1,0 +1,18 @@
+{
+  "activeProfile": "default",
+  "profiles": {
+    "default": {
+      "url": "http://172.16.123.21:8080",
+      "user": "",
+      "tokenFile": "",
+      "allowWrite": false,
+      "allowedJobs": [],
+      "timeoutSeconds": 30,
+      "insecureSkipVerify": false
+    }
+  },
+  "http": {
+    "listen": "127.0.0.1:8765",
+    "serverAuthTokenFile": ""
+  }
+}
