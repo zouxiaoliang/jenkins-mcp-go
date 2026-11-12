@@ -1,7 +1,14 @@
-# jenkins-mcp
+# jenkins-mcp-go
 
-An MCP server that exposes a Jenkins controller to an agent, over **stdio** or
-**Streamable HTTP**.
+Jenkins MCP server in Go — expose a Jenkins controller to AI clients over **stdio** or **Streamable HTTP**. Single static binary.
+
+用 Go 写的 Jenkins MCP 服务：把 Jenkins 控制器暴露给 AI 客户端，支持 stdio 与 Streamable HTTP，单静态二进制。
+
+[![License: MIT](https://img.shields.io/github/license/zouxiaoliang/jenkins-mcp-go)](./LICENSE)
+[![Go](https://img.shields.io/github/go-mod/go-version/zouxiaoliang/jenkins-mcp-go)](./go.mod)
+[![Release](https://img.shields.io/github/v/release/zouxiaoliang/jenkins-mcp-go)](https://github.com/zouxiaoliang/jenkins-mcp-go/releases)
+
+Prebuilt binaries: [Releases](https://github.com/zouxiaoliang/jenkins-mcp-go/releases).
 
 Design decisions are recorded in [`docs/adr/`](./docs/adr); the vocabulary is in
 [`GLOSSARY.md`](./GLOSSARY.md).
